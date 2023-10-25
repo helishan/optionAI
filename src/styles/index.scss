@@ -1,0 +1,18 @@
+// css 的 @import 会创建额外请求，scss 将文件包含在css中，不需要额外请求
+// _开头的文件告诉 css 不要将其编译到css文件，但是在导入语句时不需要添加下划线 这些文件只能当成模块使用
+// 不能编译成单独的 css 文件
+
+// config
+@import "variables";
+// layout
+@import "reboot";
+// mixin
+@import "mixin";
+// animation
+@import "animation";
+// button
+@import "../components/Button/style";
+// menu
+@import "../components/Menu/style";
+// icon
+@import "../components/Icon/style";
