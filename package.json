@@ -48,6 +48,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-transition-group": "^4.4.6"
+    "@types/react-transition-group": "^4.4.6",
+    "cross-env": "^7.0.3"
   }
 }
